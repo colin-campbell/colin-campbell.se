@@ -36,7 +36,6 @@ export default function Home() {
       <footer className={styles.footer}>
         <a
           href="https://mastodon.scot/@steenhive"
-          target="_blank"
           rel="me"
         >
           <span className={styles.logo}>
