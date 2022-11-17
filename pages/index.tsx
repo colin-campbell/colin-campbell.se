@@ -9,7 +9,6 @@ export default function Home() {
         <title>Colin Campbell</title>
         <meta name="description" content="Colin Campbell's personal site" />
         <link rel="icon" href="/favicon.ico" />
-        <link rel="me" href="https://mastodon.scot/@steenhive" />
       </Head>
 
       <main className={styles.main}>
@@ -36,14 +35,14 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://mastodon.scot/@steenhive"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="me"
         >
-          Powered by{' '}
           <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+            <Image src="/mastodon.svg" alt="Mastodon logo"  width={32} height={32} />
           </span>
+          {' '}@steenhive
         </a>
       </footer>
     </div>
