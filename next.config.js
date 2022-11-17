@@ -4,9 +4,10 @@ const nextConfig = {
   swcMinify: true,
 }
 
-module.exports = {
+import withPlugins from 'next-compose-plugins';
+import optimizedImages from 'next-optimized-images';
+
+module.exports = withPlugins(
+  [optimizedImages],
   nextConfig,
-  images: {
-    unoptimized: true
-  }
-}
+);
