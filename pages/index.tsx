@@ -15,6 +15,7 @@ export default function Home() {
         <h1 className={styles.title}>
           Colin Campbell
         </h1>
+        <h3 className={styles.subheader}>Musical and technological infidel.</h3>
 
         <p className={styles.description}>
           This is my personal website, In progress
