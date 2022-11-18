@@ -6,8 +6,8 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Colin Campbell</title>
-        <meta name="description" content="Colin Campbell's personal site" />
+        <title>Colin Campbell - Software and Music</title>
+        <meta name="description" content="Colin Campbell's personal site. Open source, free software and music." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -19,7 +19,7 @@ export default function Home() {
         <p className={styles.description}>
           This is my personal website, In progress
         </p>
-        <p className={styles.default}>Some projects (open source ftw!):</p>
+        <p className={styles.default}>Some of my own projects (open source ftw!):</p>
         <div className={styles.grid}>
           
           <a href="https://github.com/colin-campbell/pass-go" className={styles.card}>
