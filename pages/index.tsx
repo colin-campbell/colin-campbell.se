@@ -19,8 +19,9 @@ export default function Home() {
         <p className={styles.description}>
           This is my personal website, In progress
         </p>
-
+        <p className={styles.default}>Some projects (open source ftw!):</p>
         <div className={styles.grid}>
+          
           <a href="https://github.com/colin-campbell/pass-go" className={styles.card}>
             <h2>Pass-Go &rarr;</h2>
             <p>Share passwords and other secrets securely!</p>
@@ -39,9 +40,9 @@ export default function Home() {
           rel="me"
         >
           <span className={styles.logo}>
-            <Image src="/mastodon.svg" alt="Mastodon logo"  width={32} height={32} />
+            <Image src="/mastodon.svg" alt="Mastodon logo"  width={16} height={16} />
+            {' '}@steenhive@mastodon.scot
           </span>
-          {' '}@steenhive
         </a>
       </footer>
     </div>
