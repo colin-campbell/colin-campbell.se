@@ -33,6 +33,19 @@ export default function Home() {
             <p>Run unsupported PreSonus FireStudio* on Mac OS</p>
           </a>
         </div>
+        <p className={styles.default}>Projects I have contributed to:</p>
+        <div className={styles.grid}>
+          
+          <a href="https://drone.io" className={styles.card}>
+            <h2>Drone CI &rarr;</h2>
+            <p>A self-service Continuous Integration platform</p>
+          </a>
+
+          <a href="https://github.com/anerdins/nibepi" className={styles.card}>
+            <h2>NibePi &rarr;</h2>
+            <p>Control NIBE Heatpumps from a Raspberry PI</p>
+          </a>
+        </div>
       </main>
 
       <footer className={styles.footer}>
@@ -41,7 +54,7 @@ export default function Home() {
           rel="me"
         >
           <span className={styles.logo}>
-            <Image src="/mastodon.svg" alt="Mastodon logo"  width={16} height={16} />
+            <Image src="/mastodon.svg" alt="Mastodon logo" width={30} height={30}/>
             {' '}@steenhive@mastodon.scot
           </span>
         </a>
