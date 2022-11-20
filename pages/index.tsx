@@ -6,8 +6,9 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Colin Campbell - Software and Music</title>
+        <title>Colin Campbell - Software and Music Infidel</title>
         <meta name="description" content="Colin Campbell's personal site. Open source, free software and music." />
+        <meta property="og:image" content="/infidel.png" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
