@@ -16,14 +16,14 @@ export default function Home() {
         <h1 className={styles.title}>
           Colin Campbell
         </h1>
-        <h3 className={styles.subheader}>Musical and technological infidel.</h3>
+        <h3 className={styles.subheader}>Infidel.</h3>
 
         <p className={styles.description}>
           This is my personal website, In progress
         </p>
         <p className={styles.default}>Some of my own projects (open source ftw!):</p>
         <div className={styles.grid}>
-          
+
           <a href="https://github.com/colin-campbell/pass-go" className={styles.card}>
             <h2>Pass-Go &rarr;</h2>
             <p>Share passwords and other secrets securely!</p>
@@ -36,7 +36,7 @@ export default function Home() {
         </div>
         <p className={styles.default}>Projects I have contributed to:</p>
         <div className={styles.grid}>
-          
+
           <a href="https://drone.io" className={styles.card}>
             <h2>Drone CI &rarr;</h2>
             <p>A self-service Continuous Integration platform</p>
