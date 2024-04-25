@@ -10,6 +10,7 @@ export default function Home() {
         <meta name="description" content="My personal site. Open source, free software and music." />
         <meta property="og:image" content="/infidel.png" />
         <link rel="icon" href="/favicon.ico" />
+        <link rel="me" href="https://mastodon.scot/@steenhive" />
       </Head>
 
       <main className={styles.main}>
